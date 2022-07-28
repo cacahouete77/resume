@@ -1,0 +1,20 @@
+[
+    {
+        "title1": "Ce curriculum vitae",
+        "title2": "adrienmarcotte.com",
+        "title3": null,
+
+        "subtitle": "https://github.com/cacahouete77/resume",
+
+        "description": "Page web avec React comme front-end, servi avec node.js sur heroku"
+    }, 
+    {   
+        "title1": "Manoeuvre agricole",
+        "title2": "Vegpro",
+        "title3": "Sherrington",
+
+        "subtitle": "juin 2020 - août 2020",
+
+        "description": null
+    }
+]
