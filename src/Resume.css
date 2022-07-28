@@ -25,15 +25,24 @@
 }
 
 .main-content {
-  max-width: 70%;
-  min-width: 70%;
-  height: 100%;
+  --main-content-margin: 36px;
+
+  max-width: calc(65% - var(--main-content-margin));
+  min-width: calc(65% - var(--main-content-margin));
+  height: calc(100% - var(--main-content-margin) * 2);
+
+  margin: var(--main-content-margin);
+  margin-right: 0px;
 }
 
 .secondary-content {
-  max-width: 30%;
-  min-width: 30%;
-  height: 100%;
+  --secondary-content-margin: 36px;
+
+  max-width: calc(35% - var(--secondary-content-margin) * 2);
+  min-width: calc(35% - var(--secondary-content-margin) * 2);
+  height: calc(100% - var(--secondary-content-margin) * 2);
+
+  margin: var(--secondary-content-margin);
 }
 
 
@@ -47,5 +56,5 @@
 }
 
 .resume-footer i {
-  margin-right: 64px;
+  margin-right: 48px;
 }

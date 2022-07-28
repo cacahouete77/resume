@@ -9,12 +9,14 @@ interface SectionProps {
 
 function Section(props: SectionProps) {
   return (
-    <div>
+    <div className="section">
+
+      <div className="section-line"></div>
       <div className="section-title">
         {props.title}
       </div>
 
-      {props.items.map(i => <SectionItem {...i}></SectionItem>)}
+      {props.items.map(data => <SectionItem {...data} key={data.title1}></SectionItem>)}
     </div>
   );
 }

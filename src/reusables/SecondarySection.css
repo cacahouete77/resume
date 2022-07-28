@@ -1,0 +1,68 @@
+
+
+.secondary-section {
+    margin-bottom: 32px;
+}
+
+.secondary-section-line {
+    width: 210px;
+    height: 0px;
+
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.secondary-section-title {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 16px;
+
+    font-size: 5.5mm;
+    font-weight: 900;
+}
+
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 4.5mm;
+    margin-bottom: 10px;
+}
+
+.skill-circle-group {
+    display: flex;
+}
+
+.skill-circle {
+    display: flex;
+
+    --skill-circle-size: 12px;
+
+    min-width: var(--skill-circle-size);
+    min-height: var(--skill-circle-size);
+
+    border-radius: var(--skill-circle-size);
+    border: 1px solid rgb(0, 0, 0);
+
+    margin-left: 12px;
+}
+
+.first-circle-half, .second-circle-half {
+    width: calc(var(--skill-circle-size) / 2);
+    height: 100%;
+}
+
+.first-circle-half {
+    border-top-left-radius: var(--skill-circle-size);
+    border-bottom-left-radius: var(--skill-circle-size);
+}
+
+.second-circle-half {
+    border-top-right-radius: var(--skill-circle-size);
+    border-bottom-right-radius: var(--skill-circle-size);
+}
+
+.full-circle .first-circle-half, .half-circle .first-circle-half, .full-circle .second-circle-half {
+    background-color: black;
+}

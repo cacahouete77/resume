@@ -1,6 +1,14 @@
 
+.section-item {
+    margin-bottom: 16px;
+}
+
+.titles {
+    margin-bottom: 4px;
+}
+
 .title1 {
-    font-size: 5mm;
+    font-size: 5.25mm;
 }
 
 .title2 {
@@ -13,8 +21,15 @@
 
 .subtitle {
     font-size: 4mm;
+
+    color: rgb(85, 85, 85);
 }
 
 .description {
-    font-size: 5mm;
+    text-align: justify;
+
+    margin-top: 8px;
+    font-size: 4.5mm;
+
+    color: rgb(50, 50, 50);
 }

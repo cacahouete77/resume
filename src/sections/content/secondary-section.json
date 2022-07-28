@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Programmation",
+        "skills": [
+            {
+                "name": "Javascript",
+                "level": 10
+            },
+            {
+                "name": "Typescript",
+                "level": 10
+            },
+            {
+                "name": "html / css",
+                "level": 9
+            },
+            {
+                "name": "Python",
+                "level": 9
+            },
+            {
+                "name": "Java",
+                "level": 7
+            },
+            {
+                "name": "C, C++",
+                "level": 6
+            }
+        ]
+    },
+    {
+        "title": "Frameworks",
+        "skills": [
+            {
+                "name": "Vue",
+                "level": 9
+            },
+            {
+                "name": "PyTorch",
+                "level": 8
+            },
+            {
+                "name": "Angular",
+                "level": 6
+            },
+            {
+                "name": "React",
+                "level": 5
+            }
+        ]
+    },
+    {
+        "title": "Langues",
+        "skills": [
+            {
+                "name": "Français",
+                "level": 10
+            },
+            {
+                "name": "Anglais",
+                "level": 10
+            },
+            {
+                "name": "Espagnol",
+                "level": 7
+            }
+        ]
+    }
+]

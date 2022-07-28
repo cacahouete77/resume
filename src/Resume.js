@@ -1,17 +1,20 @@
 import './Resume.css';
 
 import Section from "./reusables/Section";
+import SecondarySection from "./reusables/SecondarySection";
 
 import ResumeHeader from "./sections/ResumeHeader";
+
 import education from "./sections/content/education.json";
 import workExperience from "./sections/content/work-experience.json";
 import projects from "./sections/content/projects.json";
+
+import secondary from "./sections/content/secondary-section.json";
 
 function Resume() {
   return (
     <div className={true ? "resume" : ""}>
       <div className="full-page">
-        {/*<ResumeHeader></ResumeHeader>*/}
         <ResumeHeader className="resume-header"></ResumeHeader>
 
         <div className="content">
@@ -22,7 +25,7 @@ function Resume() {
           </div>
 
           <div className='secondary-content'>
-            qweqwewqeqwe
+            {secondary.map((data => <SecondarySection {...data} key={data.title}></SecondarySection>))}
           </div>
         </div>
 

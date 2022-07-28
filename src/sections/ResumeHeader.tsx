@@ -2,7 +2,7 @@ import './ResumeHeader.css';
 
 const profil = require("./profil.jpg");
 
-function ResumeHeader({ className }) {
+function ResumeHeader() {
   return (
     <div className="resume-header">
       <img className="profile-picture" src={profil} alt="Ce à quoi je ressemble"></img>

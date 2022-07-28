@@ -12,10 +12,13 @@ interface SectionItemProps {
 
 function SectionItem(props: SectionItemProps) {
   return (
-    <div>
-      {props.title1 ? <b className="title1">{props.title1}</b> : null}
-      {props.title2 ? <span className="title2">{", " + props.title2}</span> : null}
-      {props.title3 ? <i className="title3">{" - " + props.title3}</i> : null}
+    <div className="section-item">    
+      <div className="titles">
+        {props.title1 ? <b className="title1">{props.title1}</b> : null}
+        
+        {props.title2 ? <span className="title2">{", " + props.title2}</span> : null}
+        {props.title3 ? <i className="title3">{" - " + props.title3}</i> : null}
+      </div>
 
       {props.subtitle ? <div className="subtitle">{props.subtitle}</div> : null}
       {props.description ? <div className="description">{props.description}</div> : null}

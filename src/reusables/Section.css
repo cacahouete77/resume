@@ -1,6 +1,22 @@
 
+
+.section {
+    margin-bottom: 32px;
+}
+
+.section-line {
+    width: 275px;
+    height: 0px;
+
+
+    border: 2px solid rgb(0, 0, 0);
+}
+
 .section-title {
     width: 100%;
+    margin-top: 4px;
+    margin-bottom: 16px;
 
-    font-size: 6mm;
+    font-size: 6.75mm;
+    font-weight: 900;
 }
