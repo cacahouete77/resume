@@ -1,1 +1,1 @@
-This is just a Resume made in css. Move along, nothing to see here
+This is just a Resume made in React
