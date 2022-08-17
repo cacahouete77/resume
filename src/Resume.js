@@ -13,7 +13,7 @@ import secondary from "./sections/content/secondary-section.json";
 
 function Resume() {
   return (
-    <div className={true ? "resume" : ""}>
+    <div className={false ? "resume" : ""}>
       <div className="full-page">
         <ResumeHeader className="resume-header"></ResumeHeader>
 
@@ -29,9 +29,11 @@ function Resume() {
           </div>
         </div>
 
+        {/*
         <div className="resume-footer">
           <i>Les références seront fournies sur demande</i>
         </div>
+        */}
       </div>
     </div>
   );

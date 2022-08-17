@@ -32,13 +32,11 @@ function Skill(props: SkillProps) {
     ));
   }
 
-  console.log(circles);
-
   return (
       <div className="skill">
         {props.name}
         <div className="skill-circle-group">
-          {circles}
+          {props.level > 0 ? circles : null}
         </div>
       </div>
     )

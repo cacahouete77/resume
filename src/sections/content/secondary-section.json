@@ -65,5 +65,22 @@
                 "level": 7
             }
         ]
+    },
+    {
+        "title": "Intérêts",
+        "skills": [
+            {
+                "name": "Peinture",
+                "level": 0
+            },
+            {
+                "name": "Écriture",
+                "level": 0
+            },
+            {
+                "name": "Réflexion",
+                "level": 0
+            }
+        ]
     }
 ]

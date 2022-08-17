@@ -27,8 +27,8 @@
 .main-content {
   --main-content-margin: 36px;
 
-  max-width: calc(65% - var(--main-content-margin));
-  min-width: calc(65% - var(--main-content-margin));
+  max-width: calc(63% - var(--main-content-margin));
+  min-width: calc(63% - var(--main-content-margin));
   height: calc(100% - var(--main-content-margin) * 2);
 
   margin: var(--main-content-margin);
@@ -38,8 +38,8 @@
 .secondary-content {
   --secondary-content-margin: 36px;
 
-  max-width: calc(35% - var(--secondary-content-margin) * 2);
-  min-width: calc(35% - var(--secondary-content-margin) * 2);
+  max-width: calc(37% - var(--secondary-content-margin) * 2);
+  min-width: calc(37% - var(--secondary-content-margin) * 2);
   height: calc(100% - var(--secondary-content-margin) * 2);
 
   margin: var(--secondary-content-margin);
